@@ -1,14 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Header';
-import Footer from './Footer';
 import Main from './Main';
 import Product from './Product';
 import NotFound from './NotFound';
-import styles from "./App.module.css";
-import Wrapper from './Wrapper';
-import TrelloList from './TrelloList';
-import { connect } from 'react-redux';
 
 const App = () => {
 	return (
