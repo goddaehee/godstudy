@@ -4,15 +4,6 @@ import { Link } from 'react-router-dom';
 const Main = (props) => {
 	// let myName = "GodDaeHee"; // useState를 사용하여 변경
 	const [ myName, setMyName ] = useState("GodDaeHee") 
-    function changeName(e) {
-        /*
-		myName = myName === "GodDaeHee" ? "KimDaeHee" : "GodDaeHee";
-        console.log(myName);
-        document.getElementById("name").indderText = myName;
-		*/
-		e.preventDefault();
-		setMyName(myName === "GodDaeHee" ? "KimDaeHee" : "GodDaeHee");
-    }
 
     return (
         <div>
