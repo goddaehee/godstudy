@@ -1,14 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-function Header(props) {
-    return (
-        <>
-            <Link to="/">
-                <h1>헤더입니다.</h1>
-            </Link>
-        </>
-    );
+export default function Header() {
+  return (
+    <header className="heading">
+      <h1 className="title">2048</h1>
+      <div className="scores-container">
+        <div className="score-container" style={{ marginRight: 5 }}>
+          0
+        </div>
+        <div className="best-container">2480</div>
+      </div>
+    </header>
+  );
 }
-
-export default Header;
